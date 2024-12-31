@@ -1,0 +1,105 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pagination .page-link {
+    color: #007bff;
+  }
+  
+  .pagination .active .page-link {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+
+  /* General container styling */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Table styling */
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Pagination styling */
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .page-item {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  .page-item:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .page-link {
+    text-decoration: none;
+  }
+  
+  .active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
